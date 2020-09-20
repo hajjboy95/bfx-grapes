@@ -2,14 +2,17 @@ Hi,
 
 To run the project;
 
-cd into client and run `npm install`
-cd into server and run `npm install`
+cd into `client` and run `npm install`
+
+cd into `server` and run `npm install`
 
 run the 2 grape servers.
 
-`grape --dp 20002 --aph 40001 --bn '127.0.0.1:20001'` and `grape --dp 20001 --aph 30001 --bn '127.0.0.1:20002'`
+`grape --dp 20002 --aph 40001 --bn '127.0.0.1:20001'` and
 
-run the server by cd'ing into the server and run `node server.js` likewise for the client cd into the `client` dir and `node client.js`
+`grape --dp 20001 --aph 30001 --bn '127.0.0.1:20002'`
+
+run the server by cd'ing into the `server` and run `node server.js` likewise for the `client` cd into the `client` dir and `node client.js`
 
 to the tests cd into the `server` dir and run `npm test`
 
